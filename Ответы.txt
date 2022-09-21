@@ -1,0 +1,13 @@
+1.Назначение редактора Figma-граф. редактор для создания прототипов сайтов и приложений.
+2.Как скачать картинку из макета?-Нажать на нее, выделить картинку, справа нажать на Export и загрузить ее в любую папку
+3.назначение вкладки inspect-Эта вкладка показывает css код + если есть картинка она показывает ссылку на источник картинки.
+4.что такое шапка сайта?-это титульная верхняя часть страницы
+какой тег ему соответсвует?-header
+5.Для чего необходим файл normalaize.css?-Он нужен чтобы браузер начал отображать элементы последовательно.
+6.Вставьте ссылку для скачивания normalaize.css-necolas . github . io / normalize . css
+7.Пропишите команду для подключения normalaize.css-<link rel="stylesheet" href="Css/Normalize.css">
+
+8.Как подключить шрифт Roboto?-		html-	<link rel="preconnect" href="https://fonts.googleapis.com">
+        					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       				    		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+					css-	font-family: "Roboto", sans-serif;
