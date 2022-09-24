@@ -1,11 +1,19 @@
-const schemeSvg = document.querySelector('.scheme-svg')
-const totalPriceTag= document.querySelector('.price-total')
-let cost=800;
+const schemeSvg = document.querySelector('.scheme-svg');
+const totalPriceTag= document.querySelector('.price-total');
+const menuButtom = document.querySelector(".m-menu");
+const menu = document.querySelector(".menu");
+let cost=500;
 let totalPrice=0;
 schemeSvg.addEventListener('click',(event) =>{
    if (!event.target.classList.contains('booked')){
     event.target.classList.toggle('active')
-    totalPrice=800;
+    let totalSeats = schemeSvg.querySelectorAll(".active").length
+    totalPrice= totalSeats * cost;
     totalPriceTag.textContent=totalPrice;
+    
    }
+})
+menuButtom.addEventListener('click',()=>{
+   console.log("Click")
+   menu.classList.toggle("is-open")
 })
